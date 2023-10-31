@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  padding: 0;
+ 
 }
+.slider{
+ 
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 800px;
+  animation: changeimg 16s ease-in infinite;
+  
+}      
+.outer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  height: 600px;
+  
+}                                                
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@keyframes changeimg {
+  0%,100%{
+    background-image: url("https://media.istockphoto.com/id/1474600186/photo/forest-aerial-view-drone-photography-spring-field-sustainability-protection-of-nature.jpg?s=2048x2048&w=is&k=20&c=KDmsMd1AHKqOoV1qRCRoiOUNMemo-HmoNQDBFTQW4EA=");
+    }
+    25%{
+      background-image: url("https://media.istockphoto.com/id/1351814571/photo/pile-of-leaves-with-rake.jpg?s=2048x2048&w=is&k=20&c=Mi1RE-FHVgbE3BfVtMgjADk0lRkCTBPxkyzXmoLNosI=");
+    }
+    50%{
+      background-image: url("https://media.istockphoto.com/id/1681921894/photo/make-leaves-in-autumn-with-a-leaf-rake-in-the-garden.webp?s=2048x2048&w=is&k=20&c=tglARme0Kh3zBZOYE5NjVIOz9GlDACRcuL3PCA4GJoM=");
+      }
+      75%{
+        background-image: url("https://media.istockphoto.com/id/175184023/photo/rake-leaves-on-grass-in-garden.webp?s=2048x2048&w=is&k=20&c=HFbMIK_SoaOv5H3kFyNJVGfjkQQX1lNvisEe74KKGzc=");
+      }
+      
+   
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
