@@ -12,7 +12,7 @@ import logo from "../assets/asset0.png"
             <div>
                 <img src={logo} alt=""  className='w-full h-[40px]'/>
             </div>
-            <div className='md:flex md:gap-10 '>
+            <div className='md:flex md:gap-5   '>
                 <NavLink to="" className=" font-bold">Home </NavLink>
                 <NavLink to="" className="font-bold"> About Us</NavLink>
                 <NavLink to="" className="font-bold">Service</NavLink>
@@ -23,7 +23,7 @@ import logo from "../assets/asset0.png"
                 <button className='w-[130px] text-white  h-[55px] bg-[#6c696c] shadow-sm border-blue-300 rounded-md hover:bg-[#5972c5] hover:transiction-500'> 
                     Login
                 </button>
-                 </div>
+            </div>
         </div>
 
         {/* mobile view */}

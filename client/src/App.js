@@ -16,7 +16,7 @@ function App() {
           <Route exact  path="/" element={<Home/>}/>
         </Routes>
       </section>
-      {/* <Footer/>  */}
+      <Footer/> 
     </div>
   )
 }
