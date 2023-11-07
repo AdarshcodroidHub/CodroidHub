@@ -5,7 +5,7 @@ import logo from "../assets/asset0.png"
  const NavBar = () => {
     const [isShow,setShow]=useState(false);
   return (
-    <div className=' sticky w-full shadow-lg bg-[#222328] text-white'>
+    <div className='sticky top-0 z-50   w-full shadow-lg bg-[#222328] text-white'>
         {/* desktop view */}  
         <div className="hidden  md:flex w-[1080px] h-[105px] md:mx-auto md:items-center md:justify-between" >
         
